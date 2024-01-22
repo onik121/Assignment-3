@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+main{
+    max-width: 1210px;
+    margin: 0 auto;
+    border: px solid black;
+}
+
+.onik div {
+    border: px solid red;
+}
+
+
+
+
+
+
+.pogram-div1{
+    background: url(Images/2.png)
+}
+
+
+
+.pogram-div2{
+    background: url(Images/3.png)
+}
+
+.pogram-div3{
+    background: url(Images/4.png)
+}
