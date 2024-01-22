@@ -13,20 +13,36 @@ main{
     border: px solid black;
 }
 
-.onik div {
-    border: px solid red;
+
+
+/*--section-title--*/
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
+.section-title h1{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.section-title p{
+    color: rgba(19, 19, 24, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+/*--section-title end--*/
 
 
 
 
 
+/*--Program Sections---*/
 .pogram-div1{
     background: url(Images/2.png)
 }
-
-
 
 .pogram-div2{
     background: url(Images/3.png)
@@ -34,4 +50,11 @@ main{
 
 .pogram-div3{
     background: url(Images/4.png)
+}
+/*--Program Sections End---*/
+
+
+
+.radial-progress:before{
+    background-color: red !important;
 }
