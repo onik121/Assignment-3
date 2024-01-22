@@ -7,13 +7,6 @@
     font-family: 'Manrope', sans-serif;
 }
 
-main{
-    max-width: 1210px;
-    margin: 0 auto;
-    border: px solid black;
-}
-
-
 
 /*--section-title--*/
 .section-title{
@@ -55,6 +48,64 @@ main{
 
 
 
-.radial-progress:before{
-    background-color: red !important;
+
+
+
+/*---Professional Hockeys Club--*/
+
+.onik > div{
+    border: px solid red;
 }
+
+.radial-progress1{
+    transform: rotate( 130deg) !important;
+}
+.radial-progress1 h1{
+    transform: rotate( 230deg) !important;
+}
+
+.radial-progress2{
+    transform: rotate( 120deg) !important;
+}
+.radial-progress2 h1{
+    transform: rotate( 240deg) !important;
+}
+
+.radial-progress3{
+    transform: rotate( 150deg) !important;
+}
+.radial-progress3 h1{
+    transform: rotate( 210deg) !important;
+}
+
+.radial-progress4{
+    transform: rotate( 140deg) !important;
+}
+.radial-progress4 h1{
+    transform: rotate( 220deg) !important;
+}
+
+.radial-progress:before{
+    background-color: #E7E7E8 !important;
+}
+
+@media screen and (max-width:900px) {
+    .onik{
+        flex-wrap: wrap;
+    }
+
+    .onik > div{
+        padding: 20px 20px;
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .onik > div{
+        padding: 20px 0px;
+        width: 100%;
+    }
+}
+/*----*/
