@@ -25,11 +25,6 @@
 }
 
 
-#slide1{
-    border: 1px solid black;
-}
-
-
 /*--section-title--*/
 .section-title{
     text-align: center;
@@ -122,7 +117,6 @@
     }
 }
 
-
 @media screen and (max-width:600px) {
 
     .onik > div{
@@ -166,6 +160,8 @@
 
 
 
+
+
 /*----*/
 @media screen and (max-width:640px) {
 
@@ -173,42 +169,66 @@
         height: 300px !important;
     }
 
-    #slide1{
-        min-height: 430px;
-    }
-
     .sukonna{
-        background-color: black;
-        height: 100px;
-        position: absolute;
         bottom: 0px;
         right: 0px;
-        border-radius: 16px;
-        color: white;
+        width: 100% !important;
+        padding: 16px;
+    }
+
+    .sukonna h1{
+        font-size: 18px;
+    }
+
+    .sukonna p{
+        font-size: 14px;
     }
 
     .left-right{
-        top: 260px;
+        top: 310px;
         text-align: center;
     }
 }
 
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 472px) {
     #slide1{
-        min-height: 450px;
+        min-height: 490px;
+    }
+
+    .left-right{
+        top: 325px;
     }
 }
 
-@media screen and (max-width: 356px) {
+
+@media screen and (max-width: 388px) {
     #slide1{
-        min-height: 480px;
+        min-height: 530px;
+    }
+
+    .left-right{
+        top: 335px;
     }
 }
 
-@media screen and (max-width: 343px) {
+@media screen and (max-width: 375px) {
     #slide1{
-        min-height: 505px;
+        min-height: 545px;
+    }
+
+    .left-right{
+        top: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #slide1{
+        min-height: 560px;
+    }
+
+    .left-right{
+        top: 345px;
     }
 }
 /*----*/
