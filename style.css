@@ -58,31 +58,32 @@
 }
 
 .radial-progress1{
-    transform: rotate( 130deg) !important;
+    rotate: 130deg;
 }
 .radial-progress1 h1{
     transform: rotate( 230deg) !important;
 }
 
 .radial-progress2{
-    transform: rotate( 120deg) !important;
+    rotate: 120deg;
 }
 .radial-progress2 h1{
-    transform: rotate( 240deg) !important;
+   rotate: 240deg;
 }
 
+
 .radial-progress3{
-    transform: rotate( 150deg) !important;
+    rotate: 150deg;
 }
 .radial-progress3 h1{
-    transform: rotate( 210deg) !important;
+    rotate: 210deg;
 }
 
 .radial-progress4{
-    transform: rotate( 140deg) !important;
+    rotate: 140deg;
 }
 .radial-progress4 h1{
-    transform: rotate( 220deg) !important;
+    rotate: 220deg;
 }
 
 .radial-progress:before{
@@ -109,3 +110,9 @@
     }
 }
 /*----*/
+
+
+
+.product > div{
+    border: 1px solid #1313181a;
+}
