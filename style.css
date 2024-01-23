@@ -8,6 +8,28 @@
 }
 
 
+.hero{
+    background: url(Images/1.png);
+}
+
+.sukonna{
+    bottom: 30px;
+    right: 30px;
+}
+
+
+.btn-circle{
+    background-color: #131318 !important;
+    color: white !important;
+    border: none !important;
+}
+
+
+#slide1{
+    border: 1px solid black;
+}
+
+
 /*--section-title--*/
 .section-title{
     text-align: center;
@@ -51,12 +73,11 @@
 
 
 
+
+
+
+
 /*---Professional Hockeys Club--*/
-
-.onik > div{
-    border: px solid red;
-}
-
 .radial-progress1{
     rotate: 130deg;
 }
@@ -113,15 +134,20 @@
 
 
 
+
+
 .product > div{
     border: 1px solid #1313181a;
 }
 
 
+
+
+/*----*/
 .collapse{
     border-radius: 0px !important;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
 }
-
 
 .collapse-title:after {
     font-size: 24px;
@@ -136,3 +162,53 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+/*----*/
+
+
+
+/*----*/
+@media screen and (max-width:640px) {
+
+    .hero{
+        height: 300px !important;
+    }
+
+    #slide1{
+        min-height: 430px;
+    }
+
+    .sukonna{
+        background-color: black;
+        height: 100px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 16px;
+        color: white;
+    }
+
+    .left-right{
+        top: 260px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    #slide1{
+        min-height: 450px;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    #slide1{
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    #slide1{
+        min-height: 505px;
+    }
+}
+/*----*/

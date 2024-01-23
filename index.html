@@ -20,6 +20,7 @@
                 Black: '#131318',
                 gray: '#13131899',
                 Border: '#1313181a',
+                Gray: '#13131808',
               }
             }
           }
@@ -28,12 +29,49 @@
 </head>
 <body>
     
-    <header></header>
+    <header class="px-4 mx-auto max-w-[1210px]">
+        <section class="my-24">
+            <div class="carousel">
+
+                <!--slide1-->
+                <div id="slide1" class="carousel-item relative w-full h-auto">
+                    <div class="hero bg-cover bg-center h-[550px] rounded-2xl">
+                        <div class="sukonna bg-Black w-auto sm:max-w-[460px] sm:min-w-[400px] h-auto absolute rounded-2xl text-white p-4 sm:p-8">
+                            <h1 class="text-lg sm:text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                            <p class="text-sm sm:text-[16px] font-normal mt-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
+                    </div>
+                    <div class="absolute space-x-3 sm:bottom-8 sm:left-8 justify-center transform -translate-y-1/2 left-5 right-5 left-right">
+                        <a href="#slide4" class="btn btn-circle text-white bg-black border-0">❮</a> 
+                        <a href="#slide2" class="btn btn-circle text-white bg-black border-0">❯</a>
+                    </div>
+                </div> 
+
+                <!--slide2-->
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-center transform -translate-y-1/2 left-5 right-5 space-x-5 bottom-0">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+
+                <!--slide3-->
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+              </div>
+        </section>
+    </header>
 
     <main class="px-4 mx-auto max-w-[1210px]">
 
         <!--Professional Hockeys Club-->
-        <section class="my-24">
+        <section class="my-24 overflow-hidden">
             <div class="section-title">
                 <div class="border-dashed border border-[#13131833] h-[1px] mb-8"></div>
                 <h1>Program Sections</h1>
@@ -106,6 +144,7 @@
        </section>
        <!--Program Sections End-->
 
+       
        <!--Our New Products-->
        <section class="my-24">
         <div class="section-title">
@@ -242,7 +281,7 @@
 
 
        <!--Clients Question section-->
-       <section class="mb-24">
+       <section>
             <div class="section-title">
                 <div class="border-dashed border border-[#13131833] h-[1px] mb-8"></div>
                 <h1>Clients Question</h1>
@@ -256,32 +295,32 @@
                 </div>
 
                 <div class="w-screen md:basis-3/4">
-                    <div class="collapse collapse-plus" style="border-bottom: 1px solid rgba(19, 19, 24, 0.10);">
+                    <div class="collapse collapse-plus">
                         <input type="radio" name="my-accordion-3" checked="checked" /> 
                         <div class="collapse-title text-xl font-semibold text-black">Our Equipment</div>
                         <div class="collapse-content"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p></div>
                     </div>
-                    <div class="collapse collapse-plus rounded-none mt-2" style="border-bottom: 1px solid rgba(19, 19, 24, 0.10);">
+                    <div class="collapse collapse-plus rounded-none mt-2">
                         <input type="radio" name="my-accordion-3" /> 
                         <div class="collapse-title text-xl font-semibold text-black">Hockey Training</div>
                         <div class="collapse-content"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p></div>
                     </div>
-                    <div class="collapse collapse-plus rounded-none mt-2" style="border-bottom: 1px solid rgba(19, 19, 24, 0.10);">
+                    <div class="collapse collapse-plus rounded-none mt-2">
                         <input type="radio" name="my-accordion-3" /> 
                         <div class="collapse-title text-xl font-semibold text-black">Private Lessons</div>
                         <div class="collapse-content"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p></div>
                     </div>
-                    <div class="collapse collapse-plus rounded-none mt-2" style="border-bottom: 1px solid rgba(19, 19, 24, 0.10);">
+                    <div class="collapse collapse-plus rounded-none mt-2">
                         <input type="radio" name="my-accordion-3" /> 
                         <div class="collapse-title text-xl font-semibold text-black">Ski Touring</div>
                         <div class="collapse-content"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p></div>
                     </div>
-                    <div class="collapse collapse-plus rounded-none mt-2" style="border-bottom: 1px solid rgba(19, 19, 24, 0.10);">
+                    <div class="collapse collapse-plus rounded-none mt-2">
                         <input type="radio" name="my-accordion-3" /> 
                         <div class="collapse-title text-xl font-semibold text-black">Booking</div>
                         <div class="collapse-content"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p></div>
                     </div>
-                    <div class="collapse collapse-plus rounded-none mt-2">
+                    <div class="collapse collapse-plus rounded-none mt-2 border-none">
                         <input type="radio" name="my-accordion-3" /> 
                         <div class="collapse-title text-xl font-semibold text-black">Pricings</div>
                         <div class="collapse-content"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p></div>
@@ -291,6 +330,53 @@
             </div>
        </section>
        <!--Clients Question section end-->
+
+
+       <!--Get In Touch section-->
+       <section class="my-24">
+            <div class="section-title">
+                <div class="border-dashed border border-[#13131833] h-[1px] mb-8"></div>
+                <h1>Clients Question</h1>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <div class="border-dashed border border-[#13131833] h-[1px] mt-8"></div>
+            </div>
+            <div class="flex flex-wrap md:flex-nowrap gap-6">
+                <div class="w-screen md:basis-2/4 p-[50px] space-y-6 rounded-2xl" style="border: 1px solid rgba(19, 19, 24, 0.10)">
+                    <div class="max-w-[370px] min-h-[200px] bg-[#bced6d1a] rounded-2xl m-auto"></div>
+                    <div class="max-w-[370px] min-h-[200px] bg-[#fddd5f1a] rounded-2xl m-auto"></div>
+                    <div class="max-w-[370px] min-h-[200px] bg-[#629cf31a] rounded-2xl m-auto"></div>
+                </div>
+                <div class="w-screen md:basis-3/4">
+                    <form class="">
+                        <div class="w-full flex gap-6">
+                            <div class="w-3/6">
+                                <label class="block text-lg text-black font-bold mb-3" for="name">Your Name</label>
+                                <input class="w-full h-[60px] bg-Gray rounded-xl outline-0 p-5" type="text" name="" id="name" placeholder="Enter your full name">
+                            </div>
+                            <div class="w-3/6">
+                                <label class="block text-lg text-black font-bold mb-3" for="email">Your Email</label>
+                                <input class="w-full h-[60px] bg-Gray rounded-xl outline-0 p-5" type="email" name="" id="email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                        <div class="w-full flex gap-6 my-6">
+                            <div class="w-3/6">
+                                <label class="block text-lg text-black font-bold mb-3" for="subject">Subject</label>
+                                <input class="w-full h-[60px] bg-Gray rounded-xl outline-0 p-5" type="text" name="" id="subject" placeholder="Enter your subject">
+                            </div>
+                            <div class="w-3/6">
+                                <label class="block text-lg text-black font-bold mb-3" for="number">Phone Number</label>
+                                <input class="w-full h-[60px] bg-Gray rounded-xl outline-0 p-5" type="text" name="" id="number" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <label class="block text-lg text-black font-bold mb-3" for="message">Message</label>
+                            <textarea class="w-full min-h-[370px] bg-Gray outline-0 rounded-xl p-5" id="message" placeholder="Write your message"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+       </section>
+       <!--Get In Touch section end-->
 
     </main>
 
