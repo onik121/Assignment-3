@@ -8,16 +8,33 @@
 }
 
 
-/*-----*/
+/*--menu--*/
+.btn-ghost:hover{
+    background-color: white !important;
+}
+
+.menu li a:hover{
+    background-color: white !important;
+}
+/*--menu end--*/
+
+
+
+
+/*--hero section---*/
 .hero{
-    background: url(Images/1.png);
+    background: url(Images/hero-1.png);
 }
 
 .hero-2{
-    background: url(Images/4.png);
+    background: url(Images/hero-2.jpg);
 }
 
-.sukonna{
+.hero-3{
+    background: url(Images/hero-3.jpg);
+}
+
+.hero-div{
     bottom: 30px;
     right: 30px;
 }
@@ -27,27 +44,8 @@
     color: white !important;
     border: none !important;
 }
-/*-----*/
+/*--hero end---*/
 
-
-/*--section-title--*/
-.section-title{
-    text-align: center;
-}
-
-.section-title h1{
-    color: #131318;
-    font-size: 36px;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.section-title p{
-    color: rgba(19, 19, 24, 0.60);
-    font-size: 16px;
-    font-weight: 500;
-}
-/*--section-title end--*/
 
 
 /*--Program Sections---*/
@@ -63,6 +61,7 @@
     background: url(Images/4.png)
 }
 /*--Program Sections End---*/
+
 
 
 /*---Professional Hockeys Club--*/
@@ -100,19 +99,18 @@
 }
 
 @media screen and (max-width:900px) {
-    .onik{
+    .ball{
         flex-wrap: wrap;
     }
 
-    .onik > div{
+    .ball > div{
         padding: 20px 20px;
         width: 50%;
     }
 }
 
 @media screen and (max-width:600px) {
-
-    .onik > div{
+    .ball > div{
         padding: 20px 0px;
         width: 100%;
     }
@@ -162,18 +160,18 @@
         height: 300px !important;
     }
 
-    .sukonna{
+    .hero-div{
         bottom: 0px;
         right: 0px;
         width: 100% !important;
         padding: 16px;
     }
 
-    .sukonna h1{
+    .hero-div h1{
         font-size: 18px;
     }
 
-    .sukonna p{
+    .hero-div p{
         font-size: 14px;
     }
 
