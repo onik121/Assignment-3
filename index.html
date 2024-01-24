@@ -32,9 +32,45 @@
     
     
     <header class="px-4 mx-auto max-w-[1210px]">
-        <section class="mt-24">
-            <div class="carousel w-full">
 
+        <!---->
+        <section class="my-[50px]">
+            <div class="navbar bg-base-100 p-0">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden" style="padding-left: 0px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base font-normal">
+                        <li><a class="text-red font-bold">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>BLog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-2xl sm:text-4xl font-extrabold" href="#">Hockey<span class="text-red">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base font-normal">
+                    <li class="menu-item"><a class="text-red font-bold">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>BLog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-6">
+                    <i class="fa-solid fa-magnifying-glass hidden sm:block"></i>
+                  <a class="btn bg-red text-white border-none menu-btn hover:bg-Black">Get Ticket</a>
+                </div>
+              </div>
+        </section>
+        <!---->
+
+
+        <section>
+            <div class="carousel w-full">
                 <!--slide1-->
                 <div id="slide1" class="carousel-item relative w-full min-h-[470px] sm:h-auto">
                     <div class="hero bg-cover bg-center h-[550px] w-full rounded-2xl">
@@ -305,7 +341,7 @@
                 <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
                 <div class="border-dashed border border-[#13131833] h-[1px] mt-8"></div>
             </div>
-            <div class="flex flex-wrap md:flex-nowrap gap-10 p-7 rounded-2xl" style="border: 1px solid rgba(19, 19, 24, 0.10);">
+            <div class="flex flex-wrap md:flex-nowrap gap-10 p-6 sm:p-8 rounded-2xl" style="border: 1px solid rgba(19, 19, 24, 0.10);">
                 <div class="w-screen md:basis-2/4 flex items-center">
                     <img class="w-full hidden md:block" src="Images/11.png">
                     <img class="w-full block md:hidden" src="Images/Rectangle 14.png">
@@ -358,18 +394,18 @@
                 <div class="border-dashed border border-[#13131833] h-[1px] mt-8"></div>
             </div>
             <div class="flex flex-wrap md:flex-nowrap gap-6">
-                <div class="w-screen md:basis-2/4 p-[50px] space-y-6 rounded-2xl" style="border: 1px solid rgba(19, 19, 24, 0.10)">
-                    <div class="w-full md:max-w-[370px] min-h-[200px] bg-[#bced6d1a] rounded-2xl m-auto p-6">
+                <div class="w-screen md:basis-2/4 p-6 sm:p-[50px] space-y-6 rounded-2xl" style="border: 1px solid rgba(19, 19, 24, 0.10)">
+                    <div class="w-full min-h-[200px] bg-[#bced6d1a] rounded-2xl m-auto p-6">
                         <img class="mb-6" src="Images/call.png">
                         <p class="text-[16px] mb-2">Phone Number :</p>
                         <h4 class="text-Black font-extrabold text-lg">(+62) 123-321-543</h4>
                     </div>
-                    <div class="w-full md:max-w-[370px] min-h-[200px] bg-[#fddd5f1a] rounded-2xl m-auto p-6">
+                    <div class="w-full min-h-[200px] bg-[#fddd5f1a] rounded-2xl m-auto p-6">
                         <img class="mb-6" src="Images/msg.png">
                         <p class="text-[16px] mb-2">Email :</p>
                         <h4 class="text-Black font-extrabold text-lg">hockeys@support.com</h4>
                     </div>
-                    <div class="w-full md:max-w-[370px] min-h-[200px] bg-[#629cf31a] rounded-2xl m-auto p-6">
+                    <div class="w-full min-h-[200px] bg-[#629cf31a] rounded-2xl m-auto p-6">
                         <img class="mb-6" src="Images/location.png">
                         <p class="text-[16px] mb-2">Location :</p>
                         <h4 class="text-Black font-extrabold text-lg">152/1 Mohakhali Wireless Gate</h4>

@@ -8,6 +8,7 @@
 }
 
 
+/*-----*/
 .hero{
     background: url(Images/1.png);
 }
@@ -26,6 +27,7 @@
     color: white !important;
     border: none !important;
 }
+/*-----*/
 
 
 /*--section-title--*/
@@ -49,9 +51,6 @@
 /*--section-title end--*/
 
 
-
-
-
 /*--Program Sections---*/
 .pogram-div1{
     background: url(Images/2.png)
@@ -65,14 +64,6 @@
     background: url(Images/4.png)
 }
 /*--Program Sections End---*/
-
-
-
-
-
-
-
-
 
 
 /*---Professional Hockeys Club--*/
