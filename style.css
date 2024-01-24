@@ -98,6 +98,11 @@
     background-color: #E7E7E8 !important;
 }
 
+
+.ball > div{
+    width: 300px;
+}
+
 @media screen and (max-width:900px) {
     .ball{
         flex-wrap: wrap;
