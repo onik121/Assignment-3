@@ -12,11 +12,14 @@
     background: url(Images/1.png);
 }
 
+.hero-2{
+    background: url(Images/4.png);
+}
+
 .sukonna{
     bottom: 30px;
     right: 30px;
 }
-
 
 .btn-circle{
     background-color: #131318 !important;
